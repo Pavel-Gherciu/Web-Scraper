@@ -1,0 +1,76 @@
+body{
+  background-color: #D9DADF;
+}
+
+.App {
+  text-align: center;
+  background-color: #D9DADF;
+  max-width: 60%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header {
+  background-color: #D9DADF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(20px + 2vmin);
+  padding-bottom: 10vh;
+}
+
+.title {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  align-content: space-between;
+}
+.checked-item,
+.not-checked-item {
+  margin-left: 10px;
+}
+
+.results{
+  padding-top: 50px;
+}
+
+.form-group{
+  max-width: 50%;
+  margin: 0 auto;
+  padding-bottom: 5%;
+}
+
+.image-url{
+  height: auto;
+  width: 50px;
+  margin-right: 20px;
+}
+
+
+.table-bordered{
+  border-width: 5px;
+}
+
+.error{
+  color: red;
+}
+
+.sent-results{
+  padding-top: 2%;
+}
+
+
+.sent-count{
+  padding-bottom: 20px;
+}
+
+.btn-primary{
+  margin-bottom: 20px;
+}
