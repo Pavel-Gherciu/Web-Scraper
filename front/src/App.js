@@ -160,7 +160,7 @@ function App() {
             <div className='sent-count'>
                Number of words: <strong>{wordcount}</strong>
             </div>
-            <button className="btn btn-primary" type="submit" onClick={getSentiments}>Get word count</button>
+            <button className="btn btn-primary" type="submit" onClick={getSentiments}>Get sentiment analysis</button>
             <div className='sent-count'>
               Sentimental analysis: <strong>{sentiments}</strong>
             </div>
